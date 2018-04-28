@@ -131,9 +131,7 @@ function Guess() {
   }
 
   let guess = nn.predict(inputs);
-
   let m = max(guess);
-
   console.log(m);
   let classification = guess.indexOf(m);
 
